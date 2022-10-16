@@ -4,13 +4,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { PersonagemComponent } from './personagem/personagem.component';
-import { PlanetaComponent } from './planeta/planeta.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PersonagemComponent,
-    PlanetaComponent,
+    PersonagemComponent
   ],
   imports: [
     BrowserModule,
